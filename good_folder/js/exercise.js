@@ -7,9 +7,9 @@ let operator = +prompt(
 if (isNaN(num1) || isNaN(num2)) {
   alert("Please enter only numbers");
 } else {
-  if (operator == !1 && operator == !2 && operator == !3 && operator == !4) {
+  if (operator !== 1 && operator !== 2 && operator !== 3 && operator !== 4) {
     alert("The entered operator is not valid");
-  } else {
+  } else {ّ
     if (operator === 1) {
       const multi = num1 * num2;
       alert(`Multiplication result: ${multi}`);
@@ -25,3 +25,4 @@ if (isNaN(num1) || isNaN(num2)) {
     }
   }
 }
+
